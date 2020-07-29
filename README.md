@@ -4,17 +4,6 @@ It is a python pygame built project sorting algorithms visualizer.  Implementing
 
 ![image](https://user-images.githubusercontent.com/52308072/88684288-52621e80-d112-11ea-818e-7e4eed539f64.png)
 
-#### You can Select any of the following algorithms to visualize them.
-
-![image](https://user-images.githubusercontent.com/52308072/88689940-bdaeef00-d118-11ea-85d5-4e8ca9a2ff8d.png)
-
-#### After clicking the button visualization will start.
-
-![image](https://user-images.githubusercontent.com/52308072/88690252-15e5f100-d119-11ea-9206-9556fb30b357.png)
-
-#### Press Stop and Suffel button to stop the algorithm at any time this button can also be used to reshuffle the array.
-
-![image](https://user-images.githubusercontent.com/52308072/88690503-5e051380-d119-11ea-8a25-eedf46bcd85b.png)
 
 #### Following Buttons can be used to change the size of the array
 
@@ -29,6 +18,18 @@ When you press the large button.
 ![image](https://user-images.githubusercontent.com/52308072/88691179-234fab00-d11a-11ea-9b54-bee02d2be371.png)
 
 default size is when we started the project.
+
+#### You can Select any of the following algorithms to visualize them.
+
+![image](https://user-images.githubusercontent.com/52308072/88689940-bdaeef00-d118-11ea-85d5-4e8ca9a2ff8d.png)
+
+#### After clicking the button visualization will start.
+
+![sort](https://user-images.githubusercontent.com/52308072/88767783-baa71380-d197-11ea-89b2-9236ec08eb0a.gif)
+
+#### Press Stop and Suffel button to stop the algorithm at any time this button can also be used to reshuffle the array.
+
+![image](https://user-images.githubusercontent.com/52308072/88690503-5e051380-d119-11ea-8a25-eedf46bcd85b.png)
 
 So this is the basic illustration of my project.
 
