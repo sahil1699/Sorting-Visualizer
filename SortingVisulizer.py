@@ -20,7 +20,7 @@ MIN_BAR_HEIGHT = 50
 MAX_BAR_HEIGHT = 450
 #dimentions
 
-#same width and lenth for all buttons
+#same width and length for all buttons
 ButtonW = 200
 ButtonL = 50
 
@@ -313,6 +313,7 @@ def selctionSort(win):
             
             pygame.time.delay(200)
             clock.tick(30)
+            
             mini = get_min(i)
 
             temp = obj[mini].y
@@ -414,8 +415,7 @@ def bubbleAnimate(var,surface):
         obj[i].draw(surface,color)
     
 
-def bubbleSort(win):
-    
+def bubbleSort(win):  
     j =0
     c =0
     i = 0
@@ -433,13 +433,10 @@ def bubbleSort(win):
         if (i == MAX_BARS - 1):
             f = False
             return
-            
-            
         if (j == MAX_BARS - 1 -i):
             j =0
             i +=1
-        
-        
+              
         if (obj[j].y > obj[j+1].y ):
             
             temp = obj[j].y
@@ -470,7 +467,7 @@ def buttonclick(mybutton,pos,event):
         if mybutton.isOver(pos):
             return True
 
-    if event.type ==pygame.MOUSEMOTION:
+    if event.type == pygame.MOUSEMOTION:
         if mybutton.isOver(pos):
             mybutton.color = (255,0,0)
         else:
@@ -531,12 +528,12 @@ def redrawwin(surface,Algo,var):
     mergeButton.draw(surface,(0,0,0))
     heapButton.draw(surface,(0,0,0))
 
-    ##change array size
+    ##change array size buttons
     arrDefaultSize.draw(surface,(0,0,0))
     arrSmallSize.draw(surface,(0,0,0))
     arrLargeSize.draw(surface,(0,0,0))
 
-    ##stop and suffel
+    ##stop and suffel bottons
     suffelButton.draw(surface,(0,0,0))
     
     pygame.display.update() ##update the diaplay
@@ -572,6 +569,7 @@ def main():
     running  = True ##project is set running
     
     while running:
+        
         for event in pygame.event.get():
             pos = pygame.mouse.get_pos()
 
@@ -581,6 +579,8 @@ def main():
                 running = False
                 pygame.quit()
                 quit()
+
+            ##onclick suffel button
             elif (buttonclick(suffelButton,pos,event)): 
                 suffel()
                 
@@ -603,8 +603,9 @@ def main():
             elif (buttonclick(heapButton,pos,event)):
                 Stop = False
                 heapSort(win)
-                
-            ###changing arr size here and recalling the main
+
+            ## for changing the size array
+            ## changing arr size here and recalling the main
             elif (buttonclick(arrLargeSize,pos,event)):
                 MAX_BARS = 138
                 MIN_BAR_WIDTH = 5
@@ -632,3 +633,6 @@ def main():
         redrawwin(win,"no",[]) ##redraw window when no algo is selected
     
 main()
+
+
+######################## By Sahil Choudhary ###################################
