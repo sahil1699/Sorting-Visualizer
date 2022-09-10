@@ -22,7 +22,7 @@ default size is at starting of this readme file.
 
 ![image](https://user-images.githubusercontent.com/52308072/88689940-bdaeef00-d118-11ea-85d5-4e8ca9a2ff8d.png)
 
-#### After clicking above buttons visualization will starts.
+#### After clicking above buttons visualization will start.
 
 ![meregeSort](https://user-images.githubusercontent.com/52308072/189471210-03068672-b2eb-4663-bb10-6d5f1b30dad8.gif)
 
