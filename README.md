@@ -1,55 +1,61 @@
-# Sorting-Visualizer
+# Sorting Visualizer
 
-It is a python pygame built project sorting algorithms visualizer.  Implementing quick sort, merge sort, bubble sort, heap sort, selection sort and insertion sort. Here is the basic illustration of project.
+Sorting Visualizer is a Python project built with pygame that provides a visual representation of various sorting algorithms, including Quick Sort, Merge Sort, Bubble Sort, Heap Sort, Selection Sort, and Insertion Sort. This README aims to guide you through the project's features and how to run it on your own machine.
 
-![quicksort](https://user-images.githubusercontent.com/52308072/189471144-f2c97538-281b-406f-9886-3835edb62e95.gif)
+## Project Overview
 
-#### Following Buttons can be used to change the size of the array
+![Quick Sort Visualization](https://user-images.githubusercontent.com/52308072/189471144-f2c97538-281b-406f-9886-3835edb62e95.gif)
 
-![image](https://user-images.githubusercontent.com/52308072/88691002-ec799500-d119-11ea-9504-599a0dbefc21.png)
+The project offers an interactive interface that allows you to visualize different sorting algorithms in action. It's a great tool for understanding how these algorithms work and how they compare in terms of efficiency.
 
-When you press the small(with values) button.
+## Adjusting Array Size
 
-![image](https://user-images.githubusercontent.com/52308072/88690846-b76d4280-d119-11ea-99f5-07e1e0807d28.png)
+You can change the size of the array being sorted using the following buttons:
 
-When you press the large button.
+- ![Small Array](https://user-images.githubusercontent.com/52308072/88691002-ec799500-d119-11ea-9504-599a0dbefc21.png): Click this button to reduce the array size.
+- ![Large Array](https://user-images.githubusercontent.com/52308072/88690846-b76d4280-d119-11ea-99f5-07e1e0807d28.png): Click this button to increase the array size.
 
-![image](https://user-images.githubusercontent.com/52308072/88691179-234fab00-d11a-11ea-9b54-bee02d2be371.png)
+The default size is set at the beginning of this README file.
 
-default size is at starting of this readme file.
+## Algorithm Selection
 
-#### You can Select any of the following algorithms to visualize them.
+Choose from a variety of sorting algorithms to visualize. The available options are displayed as buttons:
 
-![image](https://user-images.githubusercontent.com/52308072/88689940-bdaeef00-d118-11ea-85d5-4e8ca9a2ff8d.png)
+![Algorithm Selection](https://user-images.githubusercontent.com/52308072/88689940-bdaeef00-d118-11ea-85d5-4e8ca9a2ff8d.png)
 
-#### After clicking above buttons visualization will start.
+## Visualizing Sorting Algorithms
 
-![meregeSort](https://user-images.githubusercontent.com/52308072/189471210-03068672-b2eb-4663-bb10-6d5f1b30dad8.gif)
+Once you've selected an algorithm, click the respective button to start the visualization. You will witness the algorithm in action:
 
-#### Press Stop and Suffel button to stop the algorithm at any time this button can also be used to reshuffle the array.
+![Merge Sort Visualization](https://user-images.githubusercontent.com/52308072/189471210-03068672-b2eb-4663-bb10-6d5f1b30dad8.gif)
 
-![image](https://user-images.githubusercontent.com/52308072/88690503-5e051380-d119-11ea-8a25-eedf46bcd85b.png)
+## Stopping and Shuffling
 
-So this is the basic illustration of my project.
+At any point during the visualization, you can stop the algorithm or reshuffle the array by clicking the following buttons:
 
-## How to run it on your PC.
+- ![Stop](https://user-images.githubusercontent.com/52308072/88690503-5e051380-d119-11ea-8a25-eedf46bcd85b.png): Use this button to halt the algorithm.
+- ![Shuffle](https://user-images.githubusercontent.com/52308072/88690503-5e051380-d119-11ea-8a25-eedf46bcd85b.png): Click this button to shuffle the array randomly.
 
-Make sure you are running atleast python 3.7.0
+## How to Run the Project
 
-Install using pip:
-```
-pip install pygame
-```
-Then clone this repository.
-```
-git clone https://github.com/sahil1699/Sorting-Visualizer.git
-```
+To run this project on your PC, ensure you have Python 3.7.0 or a later version installed. Then follow these steps:
 
-## Start Project
-In your terminal move to the directory where you have cloned this project.
-And then type :
+1. Install pygame using pip:
 
-```
-python SortingVisulizer.py
-```
+   ```
+   pip install pygame
+   ```
 
+2. Clone this repository using the following command:
+
+   ```
+   git clone https://github.com/sahil1699/Sorting-Visualizer.git
+   ```
+
+3. Open your terminal, navigate to the directory where you've cloned the project, and execute the following command to start the visualizer:
+
+   ```
+   python SortingVisualizer.py
+   ```
+
+Explore the world of sorting algorithms through visualization with Sorting Visualizer!
