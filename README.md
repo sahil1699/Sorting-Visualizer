@@ -55,7 +55,7 @@ To run this project on your PC, ensure you have Python 3.7.0 or a later version 
 3. Open your terminal, navigate to the directory where you've cloned the project, and execute the following command to start the visualizer:
 
    ```
-   python SortingVisualizer.py
+   python SortingVisulizer.py
    ```
 
 Explore the world of sorting algorithms through visualization with Sorting Visualizer!
